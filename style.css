@@ -1,0 +1,122 @@
+@font-face {
+  font-family: LeagueSpartan;
+  src: url("league-spartan-bold.otf");
+}
+
+#curriculo {
+  position: relative;
+  margin: 40px auto;
+  padding: 30px 20px 0 30px;
+  width: 900px;
+  height: 1500px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #150941;
+  border: solid 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.45);
+  background: #f1f1f2;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 480px;
+}
+
+#coluna-direita {
+  float: left;
+  margin: 0 40px 0 20px;
+  width: 400px;
+}
+
+#coluna-direita p,
+#coluna-direita h1,
+#coluna-direita h2,
+#coluna-direita h4,
+#coluna-direita h5,
+#coluna-direita h6 {
+  margin-left: 34px;
+}
+
+#coluna-esquerda {
+  float: left;
+  margin: 340px 20px 0 20px;
+  width: 400px;
+}
+
+h1 {
+  font-family: 'LeagueSpartan', sans-serif;
+  font-size: 48px;
+  letter-spacing: 1px;
+  line-height: 54px;
+  color: #f80040;
+}
+
+h2 {
+  font-weight: 400;
+  letter-spacing: 6px;
+}
+
+h3 {
+  font-family: 'LeagueSpartan', sans-serif;
+  font-size: 18px;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-indent: 24px;
+  border-bottom: solid 2px #f80040;
+}
+
+h4 {
+  font-family: 'LeagueSpartan', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #f80040;
+}
+
+h4.titulo-junto {
+  margin: 40px 0 0 0;
+}
+
+h5 {
+  margin: 0;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+}
+
+#coluna-esquerda h5 {
+  margin-top: 28px;
+  font-size: 26px;
+}
+
+h6 {
+  margin: 6px 0 0 0;
+  font-style: italic;
+  font-size: 14px;
+  color: #f80040;
+}
+
+#coluna-esquerda h6 {
+  font-size: 16px;
+}
+
+h6.titulo-menor {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: #150941;
+}
+
+p {
+  margin: 0;
+  line-height: 24px;
+  text-align: justify;
+}
+
+li {
+  line-height: 24px;
+  text-align: justify;
+}
+
+#coluna-esquerda ul {
+  padding: 0;
+}
